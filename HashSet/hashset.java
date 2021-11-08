@@ -59,3 +59,4 @@ public class hashset {
         //파라미터로 주어진 객체가 HashSet이 가지고 있다면 true, 아니면 false를 반환합니다.
     }
 }
+//출처 - https://coding-factory.tistory.com/554
