@@ -9,7 +9,7 @@ public class 예외처리 {
             System.out.println(2/0);
         } catch (ArithmeticException e){ //위에서 뜬 ArithmeticException 예외를 넣어주고 e는 변수명이라 e말고 아무거나 넣어줘도 상관없음.
             System.out.println("잘못된 계산입니다.");
-        } //이렇게 try문을 넣어주면 해당 계산이 잘못되었을때 아래 출력문이 나오도록 설정
+        } //이렇게 try문을 넣어주면 ArithmeticException문이 발생 했을때 "잘못된 계산입니다." 출력문이 나오도록 설정
 
     }
 }
