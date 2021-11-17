@@ -1,14 +1,17 @@
 public class FirstMethod {
-    public static void printTwoTimesA(){ //아래 값을 출력하는 메소드를 생성
-        System.out.println("-");
-        System.out.println("A");
-        System.out.println("A");
-    }
+
     public static void main(String[] args) {
-        printTwoTimesA(); //printTwoTimesA 메소드가 실행되서 결과값이 나옴.
+        printTwoTimesA("a"); //문자열 a를 넣었기 때문에 해당 참조변수인 text에 저장이 됨.
+        printTwoTimesA("a");
+        printTwoTimesA("a");
+        printTwoTimesA("b");
 
 
-        System.out.println("Hello Method");
-        System.out.println(Math.floor(1.1));//floor은 소수점을 내림해서 출력해주는 기능
+    }
+
+    public static void printTwoTimesA(String text){ //String은 해당 메소드는 문자열만 받는다는 말이고 text는 그 문자열 변수를 말함.
+        System.out.println("-");
+        System.out.println(text);
+        System.out.println(text);
     }
 }
