@@ -11,6 +11,7 @@ public class LoginDemo4 {
         }
     }
 }
+//연산의 순서
 //1. (id.equals("egoing") || id.equals("k8805") || id.equals("sorialgi") 가 true가 된다.
 //2. password.equals("11111")가 true가 된다
 //3. 1번과 2번이 true가 된다.
