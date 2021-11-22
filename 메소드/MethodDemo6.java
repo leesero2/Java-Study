@@ -21,4 +21,6 @@ public class MethodDemo6 {
         System.out.println(result);
     }
 }
+//메소드 내에서 사용한 return은 return뒤에 따라오는 값을 메소드의 결과로 반환. 동시에 메소드를 종료시킨다.
+//한가지 잊지 말아야 할점은 return을 통해서 반환할 값의 데이터 형식을 메소드의 이름 옆에 명시해 줘야함.
 //출처 - 생활코딩
