@@ -2,6 +2,7 @@ package 반복문;
 
 public class WhileDemo {
     public static void main(String[] args) {
+        //구조 : while(조건){ 반복 실행 영역 }
         //while문은 조건이 참이면 중괄호 구간을 반복적으로 실행한다.
         //반복문에서 종료조건을 잘못 지정한다면 무한 반복되거나 반복문이 실행되지 않는다.
 
