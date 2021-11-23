@@ -2,9 +2,9 @@ package 클래스;
 
 class Print { //클래스를 선언구조는 "class 클래스이름 {}"
 
-    public String delimiter = ""; //클래스 메소드랑 차이점이 static이 없음.
+    public String delimiter = ""; //클래스 메소드랑 차이점이 static이 없음. 이건 인스턴스 변수
 
-    public void A() {
+    public void A() { //static가 없기때문에 인스턴스 메소드
         System.out.println(delimiter);
         System.out.println("A");
         System.out.println("A");
