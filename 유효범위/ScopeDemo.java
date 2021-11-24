@@ -1,7 +1,7 @@
 package 유효범위;
 
 public class ScopeDemo {
-    static void a(){
+    static void a(){ //a라는 메소드안에서 변수를 선언하게 되면 i라는 변수는 메소드 안에서만 유효한 변수가 됨. 그러한 개념을 유효범위라고 함.
         int i = 0;//static이기 때문에 main메소드의 for문 i랑은 다르게 동작
     }
 
