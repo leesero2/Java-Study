@@ -1,5 +1,6 @@
 package Final;
 
+//final은 abstract랑은 다르게 상속을 하지않는 것.
 class Calculator {
     static final double PI = 3.14; //final 지정을 통해 3.14라는 파이값을 한번 셋팅 이후 바뀌지않는 상수가 되어버림(파이값은 원래 상수니까)
     int left, right;
