@@ -23,8 +23,8 @@ class Calculator {
 }
 
 class SubstractionableCalculator extends Calculator {
-    public SubstractionableCalculator(int left, int right) {
-        super(left,right); //하위 클래스의 생성자를 만들어주기위해선 이렇게 상위 클래스의 생성자를 super로 지정해줘야함
+    public SubstractionableCalculator(int left, int right) { //super 키워드는 부모 클래스를 의미. 여기에 () 를 붙이면 부모 클래스의 생성자를 의미하게 된다.
+        super(left,right); //이렇게 하면 부모 클래스의 기본 생성자가 없어져도 오류가 발생하지 않음.
         //초기화할 값이 있다면 생성자 아래에 초기화를 해줘야함. 순서가 상위부터 하위이기때문에 super위에 초기화를 하면 안됨.
 
     }
