@@ -3,7 +3,7 @@ package StringBuilder;
 public class test {
     public static void main(String[] args) {
         String str1 = "ABCDEFGHIJKLMN";
-        String str2 = "990208-1012752";
+        String str2 = "12345-678910";
         int idx=0;
 
         StringBuilder strBuf=new StringBuilder(str1);
